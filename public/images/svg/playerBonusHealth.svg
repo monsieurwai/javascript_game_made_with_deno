@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <g id="Groupe_9" data-name="Groupe 9" transform="translate(-1037 -94)">
+    <g id="Groupe_7" data-name="Groupe 7">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="63" height="63" rx="5" transform="translate(1037 94)" fill="#e7ddc2"/>
+      <g id="favorite-24px" transform="translate(1046 103)">
+        <path id="Tracé_1" data-name="Tracé 1" d="M0,0H45.895V45.895H0Z" fill="none"/>
+        <path id="Tracé_2" data-name="Tracé 2" d="M21.123,38.09,18.35,35.566C8.5,26.636,2,20.746,2,13.518A10.415,10.415,0,0,1,12.518,3a11.451,11.451,0,0,1,8.605,4,11.451,11.451,0,0,1,8.605-4A10.415,10.415,0,0,1,40.246,13.518c0,7.228-6.5,13.118-16.35,22.068Z" transform="translate(1.825 2.737)" fill="#c48f00"/>
+      </g>
+    </g>
+    <g id="Groupe_8" data-name="Groupe 8" transform="translate(12 -57)">
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1060 184)" fill="#e7ddc2" stroke="#c48f00" stroke-width="1">
+        <circle cx="9" cy="9" r="9" stroke="none"/>
+        <circle cx="9" cy="9" r="8.5" fill="none"/>
+      </g>
+      <text id="_" data-name="+" transform="translate(1069 200)" font-size="19" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800"><tspan x="-5.786" y="0">+</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Creatures</title>
+    <link href="./css/tailwind.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script type="module" src="js/main.mjs"></script>
+</head>
+
+<body>
+    <main id="game" class="bg-gray-300 h-screen w-full flex justify-evenly">
+        <section id="modal_to_lost" class="fixed left-0 right-0 bottom-0 h-screen w-full bg-gray-800 bg-opacity-50 z-10 transition duration-300 ease-in-out pointer-events-none opacity-0">
+            <div class="bg-white max-w-3xl mx-auto my-64 flex flex-col items-center rounded-lg p-32 shadow-xl">
+                <p class="text-3xl font-bold pb-16">Dommage vous avez perdu !</p>
+                <button id="re_start_game_after_lost" class="px-32 py-4 bg-yellow-600 text-white font-bold uppercase text-2 shadow hover:shadow-lg transition duration-200 ease-in-out">Rejouez</button>
+            </div>
+        </section>
+        <section id="modal_to_end" class="fixed left-0 right-0 bottom-0 h-screen w-full bg-gray-800 bg-opacity-50 z-10 transition duration-300 ease-in-out pointer-events-none opacity-0">
+            <div class="bg-white max-w-3xl mx-auto my-64 flex flex-col items-center rounded-lg p-32 shadow-xl">
+                <p class="text-3xl font-bold pb-16">Félicitation vous avez gagnez !</p>
+                <button id="re_start_game" class="px-32 py-4 bg-yellow-600 text-white font-bold uppercase text-2 shadow hover:shadow-lg transition duration-200 ease-in-out">Rejouez</button>
+            </div>
+        </section>
+        <section id="modal_to_start" class="fixed left-0 right-0 bottom-0 h-screen w-full bg-gray-800 bg-opacity-50 z-10 transition duration-300 ease-in-out pointer-events-none opacity-0">
+            <div class="bg-white max-w-3xl mx-auto my-64 flex flex-col items-center rounded-lg p-32 shadow-xl">
+                <p class="text-3xl font-bold pb-16">Commencer la partie</p>
+                <button id="start_game" class="px-32 py-4 bg-yellow-600 text-white font-bold uppercase text-2 shadow hover:shadow-lg transition duration-200 ease-in-out">Commencer</button>
+            </div>
+        </section>
+        <section id="life_and_score" class="my-auto bg-white border-r-4 w-1/6 p-8 rounded-lg custom-height">
+            <div class="flex flex-col items-center pb-16">
+                <p class="text-2xl font-bold pb-2">Vie restante</p>
+                <div id="life" class="flex items-center flex-wrap"></div>
+            </div>
+            <div class="flex flex-col items-center">
+                <p class="text-2xl font-bold">Score</p>
+                <p id="score" class="flex items-center text-2xl text-yellow-600 font-bold"></p>
+            </div>
+        </section>
+        <section id="game_arena" class="w-3/5 my-auto bg-white custom-height rounded-lg relative z-0">
+            <div class="flex">
+                <div id="game_col_0" class="w-1/6 custom-h-col relative">
+
+                </div>
+                <div id="game_col_1" class="w-1/6 custom-h-col  relative">
+
+                </div>
+                <div id="game_col_2" class="w-1/6 custom-h-col  relative">
+
+                </div>
+                <div id="game_col_3" class="w-1/6 custom-h-col relative">
+
+                </div>
+                <div id="game_col_4" class="w-1/6 custom-h-col relative">
+
+                </div>
+                <div id="game_col_5" class="w-1/6 custom-h-col relative">
+
+                </div>
+            </div>
+            <div id="game_zone_base" class="w-full h-32 bg-blue-600 absolute bottom-0 border-solid border-black border-t-4 relative z-0">
+            </div>
+        </section>
+        <section class="w-1/6 my-auto bg-white custom-height rounded-lg flex flex-col items-center pt-8">
+            <p class="text-2xl font-bold pb-2">Bonus</p>
+            <div id="bonus" class="flex flex-wrap">
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

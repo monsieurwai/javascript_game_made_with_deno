@@ -1,0 +1,8 @@
+.custom-height {
+    height: calc(100vh - 32px);
+}
+
+.open {
+    opacity: 1 !important;
+    pointer-events: initial !important;
+}
