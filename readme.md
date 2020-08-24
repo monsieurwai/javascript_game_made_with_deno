@@ -8,7 +8,7 @@ CRWD - Efficom - 24/08/2020
     - launch : iwr https://deno.land/x/install/install.ps1 -useb | iex
 
 - Launch game : 
-    - Go to the directory
+    - Go to the directory : javascript_game_made_with_deno
     - Run server : deno run --allow-net --allow-read server.tsx
 
 &rightarrow; Go to http://localhost:8000/
